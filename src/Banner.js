@@ -17,7 +17,7 @@ const Banner = () => {
                     <Button variant="outline-primary m-3" size="lg"><Link to="research" spy={true} smooth={true}>Portfolio</Link></Button>
                 </Col>
                 <Col md={6}>
-                    <Image src={headShot} style={{height: "40rem"}}roundedCircle/>
+                    <Image src={headShot} fluid roundedCircle/>
                 </Col>
             </Row>
         </Container>
